@@ -45,6 +45,8 @@ function capturePhoto() {
   link.click();
 }
 
+window.addEventListener("DOMContentLoaded", startCamera);
+
 startButton.addEventListener("click", startCamera);
 stopButton.addEventListener("click", stopCamera);
 captureButton.addEventListener("click", capturePhoto);

@@ -1,5 +1,5 @@
 let rightarow = document.querySelector(".one_button");
-clock.addEventListener("click", () => {
-  history.forward();
+rightarow.addEventListener("click", () => {
+  history.go(-1);
   history.pushState({}, "", "index.html");
 });

@@ -233,6 +233,26 @@ body {
 .twiter {
   width: 52px !important;
 }
+/* .loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 40%;
+    object-fit: cover;
+  }
+}
+.loading-none {
+  opacity: 0;
+  z-index: -99999;
+} */
 .phone_fixed {
   max-width: 120px;
   height: 26px;
@@ -277,8 +297,49 @@ body {
   width: 50px;
   right: -60px;
 }
+.battery {
+  position: relative;
+}
+.one_button {
+  position: sticky;
+  top: 0;
+}
+.battery_1 {
+  position: absolute;
+  left: 180px;
+  top: 2px;
+  width: 28px;
+  border-radius: 2px;
+  height: 14px;
+  border: 2px solid rgb(0, 81, 255);
+  background-color: #ffffffc7;
+}
+.battery_2 {
+  position: absolute;
+  left: 209px;
+  top: 6px;
+  width: 0.1px;
+  border-radius: 0.9px;
+  height: 5px;
+  border: 2px solid rgb(0, 81, 255);
+}
+.charget {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  left: 182.7px;
+  top: 3px;
+  font-family: cursive;
+  font-size: 9px;
+}
 
-/*  */
+.charget_in {
+  display: none;
+  position: absolute;
+  width: 18px;
+  height: 9px;
+  top: 4px;
+  left: 192.9px;
+}
 .oylana {
   width: 10px;
   height: 10px;
